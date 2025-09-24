@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dscjbrnyg4cnt"]
 
-[ext_resource type="Texture2D" uid="uid://brikd1dyjy684" path="res://icon.svg" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://df0hn1nntl815" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://dnpghsq0fn8bs" path="res://sprites/info_ag_logo.png" id="2_g2els"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
 size = Vector2(122, 107)
@@ -11,7 +11,8 @@ script = ExtResource("1_g2els")
 speed = 500
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_3vyb7")
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -0.5)

@@ -1,14 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cl27unj5602rc"]
+[gd_scene load_steps=2 format=3 uid="uid://cl27unj5602rc"]
 
 [ext_resource type="PackedScene" uid="uid://dscjbrnyg4cnt" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="PackedScene" uid="uid://piscy3dry6sp" path="res://scenes/enemy.tscn" id="2_yqjtg"]
 
 [node name="game" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource("1_uwrxv")]
-
-[node name="enemy" parent="." instance=ExtResource("2_yqjtg")]
-visible = false
 
 [node name="enemy_timer" type="Timer" parent="."]
 wait_time = 0.5

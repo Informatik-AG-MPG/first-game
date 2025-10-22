@@ -1,10 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://cl27unj5602rc"]
+[gd_scene load_steps=3 format=3 uid="uid://cl27unj5602rc"]
 
 [ext_resource type="PackedScene" uid="uid://dscjbrnyg4cnt" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Texture2D" uid="uid://cardjijlyu3nh" path="res://sprites/background.jpg" id="2_yqjtg"]
 
 [node name="game" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource("1_uwrxv")]
 
-[node name="enemy_timer" type="Timer" parent="."]
-wait_time = 0.5
+[node name="background" type="Sprite2D" parent="."]
+z_index = -1
+scale = Vector2(2, 2)
+texture = ExtResource("2_yqjtg")
+metadata/_edit_lock_ = true

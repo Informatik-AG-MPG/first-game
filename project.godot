@@ -13,6 +13,10 @@ config_version=5
 config/name="tutorial"
 run/main_scene="uid://cl27unj5602rc"
 config/features=PackedStringArray("4.5", "Mobile")
+<<<<<<< HEAD
+=======
+config/icon="res://sprites/godot_logo.svg"
+>>>>>>> 785561f6c3690419458d1d9fe6b29ebfae140db1
 
 [input]
 
